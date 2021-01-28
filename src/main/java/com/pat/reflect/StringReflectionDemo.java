@@ -12,7 +12,7 @@ import java.lang.reflect.Field;
 public class StringReflectionDemo {
 
     /**
-     * java 1.5 开始，反射可以修改对象的属性，即使呗final修饰
+     * java 1.5 开始，反射可以修改对象的属性，即使被final修饰
      * @param args
      */
     public static void main(String[] args) throws Exception {

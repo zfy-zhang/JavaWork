@@ -7,7 +7,10 @@ package com.pat.jvm.classloading;
  * @Modify
  */
 public class NotInitialization {
+//    public static void main(String[] args) {
+//        System.out.println(SubClass.value);
+//    }
     public static void main(String[] args) {
-        System.out.println(SubClass.value);
+        System.out.println(ConstClass.HELLOWORLD);
     }
 }
